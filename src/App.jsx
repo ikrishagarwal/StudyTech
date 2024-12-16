@@ -71,6 +71,59 @@ const App = () => {
         </div>
       </section>
 
+      <div className="bg-white min-h-screen">
+      {/* Courses Category Section */}
+      <section className="py-12">
+        <div className="max-w-7xl mx-auto text-center">
+          {/* Section Title */}
+          <h2 className="text-4xl font-semibold text-teal-800 mb-4">
+            Courses Category
+            <span className="block w-20 h-1 bg-orange-400 mx-auto mt-2"></span>
+          </h2>
+          <p className="text-gray-600 mb-8">
+            StudyTech is one powerful online software suite that combines all the tools needed to crack board exam.
+          </p>
+
+          {/* ARJUNA COURSE */}
+          <div className="mb-8">
+            <h3 className="text-3xl font-bold text-teal-600">ARJUNA COURSE</h3>
+            <ul className="mt-4 text-gray-700 text-left inline-block">
+              <li>1. ALL CHAPTER NOTES [SHORT NOTES FOR REVISION]</li>
+              <li>2. IMPORTANT QUESTION FOR PRACTICE [1,2,3 MARKS MCQ]</li>
+              <li>3. ALL CHAPTER PYQ WITH DETAILED ANALYSIS AND IMPORTANT TOPICS OF ALL CHAPTER</li>
+              <li>4. REVISION SERIES OF 50 DAYS PLAN WITH INTERACTION.</li>
+              <li>5. DOUBT SOLVING SESSION AND INTERACTION WITH ALL MENTORS [ON CALL, MESSAGES]</li>
+              <li>6. ZOOM SESSION WITH MENTORS FOR REVISION AND INTERACTION.</li>
+            </ul>
+          </div>
+
+          {/* KARNA COURSE */}
+          <div className="mb-8">
+            <h3 className="text-3xl font-bold text-teal-600">KARNA COURSE</h3>
+            <ul className="mt-4 text-gray-700 text-left inline-block">
+              <li>1. ALL CHAPTER NOTES [SHORT NOTES FOR REVISION]</li>
+              <li>2. IMPORTANT QUESTION FOR PRACTICE [1,2,3 MARKS MCQ]</li>
+              <li>3. ALL CHAPTER PYQ WITH DETAILED ANALYSIS AND IMPORTANT TOPICS OF ALL CHAPTER</li>
+              <li>4. REVISION SERIES OF 50 DAYS PLAN WITH INTERACTION [CHATS]</li>
+              <li>5. DOUBT SOLVING SESSION AND INTERACTION WITH ALL MENTORS</li>
+            </ul>
+          </div>
+
+          {/* EKLAVYA COURSE */}
+          <div>
+            <h3 className="text-3xl font-bold text-teal-600">EKLAVYA COURSE</h3>
+            <ul className="mt-4 text-gray-700 text-left inline-block">
+              <li>1. ALL CHAPTER NOTES [SHORT NOTES FOR REVISION]</li>
+              <li>2. IMPORTANT QUESTION FOR PRACTICE [1,2,3 MARKS MCQ]</li>
+              <li>3. ALL CHAPTER PYQ WITH DETAILED ANALYSIS</li>
+              <li>4. ALL CHAPTER IMPORTANT TOPICS</li>
+              <li>5. REVISION SERIES OF 50 DAYS PLAN.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
       {/* Benefits Section */}
       <section className="bg-teal-50 py-16">
         <div className="container mx-auto text-center">
