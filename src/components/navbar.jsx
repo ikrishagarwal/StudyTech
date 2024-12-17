@@ -36,6 +36,17 @@ export const Navbar = () => {
           >
             PYQs
           </Link>
+          <Link
+            to="/about"
+            className={
+              "text-gray-700 hover:text-teal-600" +
+              (active === "/about"
+                ? " font-bold border-b-2 border-b-orange-400"
+                : "")
+            }
+          >
+            About
+          </Link>
         </nav>
       </div>
     </header>

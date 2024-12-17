@@ -61,18 +61,13 @@ export const Try = () => {
         "Gender Religion Caste",
         "Political Parties",
         "Outcome of Democracy",
-      ],
-      file: "/rise-of-nationalism.pdf",
-    },
-    {
-      title: "Economics",
-      content: [
         "Development",
         "Sector of Indian Economy",
         "Money and Credits",
         "Globalization and the Indian Economy",
         "Consumer Rights",
       ],
+      file: "/rise-of-nationalism.pdf",
     },
   ];
 
