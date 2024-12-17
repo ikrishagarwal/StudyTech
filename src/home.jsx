@@ -246,8 +246,8 @@ export const Home = () => {
       </section>
 
       {/* Benefits Section */}
-      <section className="bg-red-600 text-white py-12 px-8 lg:px-16 rounded-lg relative">
-        <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between space-y-8 lg:space-y-0">
+      <section className="text-white py-12 px-8 lg:px-16 rounded-lg relative">
+        <div className="container mx-auto bg-red-600 rounded-2xl px-10 flex flex-col lg:flex-row items-center justify-between space-y-8 lg:space-y-0">
           {/* Left Section: Text Content */}
           <div className="lg:w-1/2">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
@@ -282,7 +282,7 @@ export const Home = () => {
           {/* Right Section: Image */}
           <div className="lg:w-1/2 flex justify-end">
             <img
-              src="https://via.placeholder.com/400" // Replace this with your actual image path
+              src="/tw.png"
               alt="StudyTech Benefits"
               className="w-full max-w-sm lg:max-w-md object-contain"
             />

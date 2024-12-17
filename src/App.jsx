@@ -5,7 +5,7 @@ import { Try } from "./try";
 const App = () => {
   return (
     <>
-      <Try />
+      <Home />
     </>
   );
 };
