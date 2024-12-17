@@ -1,4 +1,5 @@
 import { Navbar } from "./components/navbar";
+import { Footer } from "./components/footer";
 import { Accordion } from "./components/accordion";
 
 export const Try = () => {
@@ -76,16 +77,17 @@ export const Try = () => {
   ];
 
   return (
-    <div className="bg-teal-100 min-h-screen">
+    <div className="bg-gray-100 min-h-screen">
       <Navbar />
       <div className="min-h-full flex items-center justify-center p-4 my-8">
         <div className="w-full max-w-5xl bg-white shadow-lg rounded-lg">
-          <h1 className="text-3xl font-bold text-teal-600 text-center py-10">
+          <h1 className="text-3xl font-bold text-teal-600 text-center py-10 underline">
             Previous Year Question
           </h1>
           <Accordion items={accordionItems} />
         </div>
       </div>
+      <Footer></Footer>
     </div>
   );
 };
