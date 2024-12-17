@@ -15,7 +15,7 @@ export const Footer = () => {
               <span className="mr-2">⏰</span> Response hours: 8 to 24 Hours
             </li>
             <li className="flex items-center">
-              <span className="mr-2">📧</span> Email: info@onlearn.com
+              <span className="mr-2">📧</span> <a href="mailto:info@onlearn.com">Email: info@onlearn.com</a>
             </li>
           </ul>
         </div>
@@ -49,7 +49,7 @@ export const Footer = () => {
             <h3 className="text-lg font-semibold text-gray-800 mb-2">Links</h3>
             <ul className="text-teal-600 space-y-1">
               <li>
-                <a href="#" className="hover:underline">
+                <a href="https://www.youtube.com/@sahityarajsingh" target="_blank" className="hover:underline">
                   Youtube
                 </a>
               </li>

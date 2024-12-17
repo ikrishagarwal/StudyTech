@@ -34,7 +34,7 @@ export const Navbar = () => {
                 : "")
             }
           >
-            Try
+            PYQs
           </Link>
         </nav>
       </div>

@@ -20,6 +20,8 @@ export const Home = () => {
                 <p>Exams With</p>
                 <p>StudyTech</p>
               </h2>
+              <span>
+
               <div className="mt-6 space-y-4 md:space-x-4 flex flex-col md:flex-row items-center md:items-start">
                 <button className="bg-orange-500 uppercase text-white px-6 py-2 rounded-lg hover:bg-orange-600">
                   Explore Path
@@ -27,7 +29,10 @@ export const Home = () => {
                 <span className="bg-white shadow px-6 py-2 rounded-lg text-gray-600">
                   1.5M+ Assisted Students
                 </span>
+
+                
               </div>
+              </span>
             </div>
           </div>
         </section>
