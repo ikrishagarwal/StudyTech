@@ -31,17 +31,17 @@ export const Footer = () => {
             </h3>
             <ul className="text-teal-600 space-y-1">
               <li>
-                <a href="#" className="hover:underline">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_Qwg96zGWO2kK4LREGCPamSMYPKMAW-2Dbs0XHbnrCJEAzA/viewform?usp=header" className="hover:underline">
                   Arjuna Course
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_Qwg96zGWO2kK4LREGCPamSMYPKMAW-2Dbs0XHbnrCJEAzA/viewform?usp=header" className="hover:underline">
                   Karna Course
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:underline">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_Qwg96zGWO2kK4LREGCPamSMYPKMAW-2Dbs0XHbnrCJEAzA/viewform?usp=header" className="hover:underline">
                   Eklavya Course
                 </a>
               </li>

@@ -68,7 +68,7 @@ export const Home = () => {
               ₹149 <span className="line-through text-gray-500">₹249</span>
             </p>
             <button className="bg-orange-500 text-white px-4 py-2 mt-4 rounded-lg hover:bg-orange-600">
-              Enroll Now
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_Qwg96zGWO2kK4LREGCPamSMYPKMAW-2Dbs0XHbnrCJEAzA/viewform?usp=header">Enroll Now</a>
             </button>
           </div>
 
@@ -94,7 +94,7 @@ export const Home = () => {
               ₹249 <span className="line-through text-gray-500">₹349</span>
             </p>
             <button className="bg-orange-500 text-white px-4 py-2 mt-4 rounded-lg hover:bg-orange-600">
-              Enroll Now
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_Qwg96zGWO2kK4LREGCPamSMYPKMAW-2Dbs0XHbnrCJEAzA/viewform?usp=header">Enroll Now</a>
             </button>
           </div>
 
@@ -120,7 +120,7 @@ export const Home = () => {
               ₹349 <span className="line-through text-gray-500">₹449</span>
             </p>
             <button className="bg-orange-500 text-white px-4 py-2 mt-4 rounded-lg hover:bg-orange-600">
-              Enroll Now
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSd_Qwg96zGWO2kK4LREGCPamSMYPKMAW-2Dbs0XHbnrCJEAzA/viewform?usp=header">Enroll Now</a>
             </button>
           </div>
         </div>
